@@ -29,7 +29,7 @@ class model_build :
         try :
             self.connection.log_insert_into_db(session, 'DebugLog', 'Trying to start to build model')
             #Model is build using the below step
-            random_regressor_without_grid_search_cv = RandomForestRegressor()
+            random_regressor_without_grid_search_cv = RandomForestRegressor(n_jobs=-1)
             random_regressor_without_grid_search_cv.fit(X_train,y_train)
             score1 = random_regressor_without_grid_search_cv.score(X_test,y_test)
             #the model is save to a pickle file so it can be used while predicting result for the input data
