@@ -1,0 +1,86 @@
+2022-07-18/01:05:03		<class 'Exception'>
+2022-07-18/01:09:45		<Error from server: code=2000 [Syntax error in CQL query] message="line 1:103 no viable alternative at input '-07' (...) VALUES (uuid(),2022[-07]...)">
+2022-07-18/01:12:49		<Error from server: code=2000 [Syntax error in CQL query] message="line 1:103 no viable alternative at input '-07' (...) VALUES (uuid(),2022[-07]...)">
+2022-07-18/01:23:52		Error from server: code=2200 [Invalid query] message="table rating_prediction.rating_prediction does not exist"
+2022-07-18/01:24:48		'Session' object has no attribute 'close'
+2022-07-18/01:30:21		<Error from server: code=2000 [Syntax error in CQL query] message="line 2:28 no viable alternative at input 'InfoLog' (                INSERT INTO ['InfoLo]...)">
+2022-07-18/01:35:20		<Error from server: code=2000 [Syntax error in CQL query] message="line 2:28 no viable alternative at input 'InfoLog' (                INSERT INTO ['InfoLo]...)">
+2022-07-18/01:37:32		<Error from server: code=2000 [Syntax error in CQL query] message="line 2:28 no viable alternative at input 'InfoLog' (                INSERT INTO ['InfoLo]...)">
+2022-07-18/01:43:57		<Error from server: code=2000 [Syntax error in CQL query] message="line 2:28 no viable alternative at input '{' (                INSERT INTO [{]...)">
+2022-07-18/01:59:08		<Error from server: code=2000 [Syntax error in CQL query] message="line 2:28 no viable alternative at input '[' (                INSERT INTO [[]...)">
+2022-07-18/02:06:17		<Error from server: code=2000 [Syntax error in CQL query] message="line 2:28 no viable alternative at input 'InfoLog' (                INSERT INTO ['InfoLo]...)">
+2022-07-18/11:36:09		'db_connection' object has no attribute 'session'
+2022-07-18/12:03:56		can only concatenate str (not "type") to str
+2022-07-18/12:15:45		<class 'Exception'>
+2022-07-18/12:16:41		<class 'Exception'>
+2022-07-18/12:20:00		<class 'Exception'>
+2022-07-18/12:34:21		<class 'Exception'>
+2022-07-18/12:41:40		<class 'Exception'>
+2022-07-18/13:33:32		<class 'Exception'>
+2022-07-18/13:35:06		<class 'Exception'>
+2022-07-18/13:37:31		<class 'Exception'>
+2022-07-18/14:00:05		<class 'Exception'>
+2022-07-18/14:00:05		'NoneType' object has no attribute 'execute'
+2022-07-18/14:02:59		<Error from server: code=2000 [Syntax error in CQL query] message="line 3:66 no viable alternative at input 'object' (..., '2022-07-18', '14:02:58', 'float' [object]...)">
+2022-07-18/15:16:56		<class 'Exception'>
+2022-07-18/15:16:56		'NoneType' object has no attribute 'execute'
+2022-07-18/17:36:20		errors={'26a3594a-89e7-48cc-a750-6c92e2c7c7c3-us-east1.db.astra.datastax.com:29042:5dd57910-c7fd-4aed-96ed-3b4ed4a4e424': 'Client request timeout. See Session.execute[_async](timeout)'}, last_host=26a3594a-89e7-48cc-a750-6c92e2c7c7c3-us-east1.db.astra.datastax.com:29042:5dd57910-c7fd-4aed-96ed-3b4ed4a4e424
+2022-07-18/19:45:06		errors={'26a3594a-89e7-48cc-a750-6c92e2c7c7c3-us-east1.db.astra.datastax.com:29042:cf0bedb3-3623-46f7-92c3-875ab676bc71': 'Client request timeout. See Session.execute[_async](timeout)'}, last_host=26a3594a-89e7-48cc-a750-6c92e2c7c7c3-us-east1.db.astra.datastax.com:29042:cf0bedb3-3623-46f7-92c3-875ab676bc71
+2022-07-18/20:33:48		errors={'26a3594a-89e7-48cc-a750-6c92e2c7c7c3-us-east1.db.astra.datastax.com:29042:5dd57910-c7fd-4aed-96ed-3b4ed4a4e424': 'Client request timeout. See Session.execute[_async](timeout)'}, last_host=26a3594a-89e7-48cc-a750-6c92e2c7c7c3-us-east1.db.astra.datastax.com:29042:5dd57910-c7fd-4aed-96ed-3b4ed4a4e424
+2022-07-18/20:34:00		errors={'26a3594a-89e7-48cc-a750-6c92e2c7c7c3-us-east1.db.astra.datastax.com:29042:5dd57910-c7fd-4aed-96ed-3b4ed4a4e424': 'Client request timeout. See Session.execute[_async](timeout)'}, last_host=26a3594a-89e7-48cc-a750-6c92e2c7c7c3-us-east1.db.astra.datastax.com:29042:5dd57910-c7fd-4aed-96ed-3b4ed4a4e424
+2022-07-18/20:38:12		errors={'26a3594a-89e7-48cc-a750-6c92e2c7c7c3-us-east1.db.astra.datastax.com:29042:cf0bedb3-3623-46f7-92c3-875ab676bc71': 'Client request timeout. See Session.execute[_async](timeout)'}, last_host=26a3594a-89e7-48cc-a750-6c92e2c7c7c3-us-east1.db.astra.datastax.com:29042:cf0bedb3-3623-46f7-92c3-875ab676bc71
+2022-07-19/15:08:34		errors={'26a3594a-89e7-48cc-a750-6c92e2c7c7c3-us-east1.db.astra.datastax.com:29042:5dd57910-c7fd-4aed-96ed-3b4ed4a4e424': 'Client request timeout. See Session.execute[_async](timeout)'}, last_host=26a3594a-89e7-48cc-a750-6c92e2c7c7c3-us-east1.db.astra.datastax.com:29042:5dd57910-c7fd-4aed-96ed-3b4ed4a4e424
+2022-07-19/15:44:34		<class 'Exception'>
+2022-07-19/15:44:34		'NoneType' object has no attribute 'execute'
+2022-07-19/16:29:45		errors={'26a3594a-89e7-48cc-a750-6c92e2c7c7c3-us-east1.db.astra.datastax.com:29042:5dd57910-c7fd-4aed-96ed-3b4ed4a4e424': 'Client request timeout. See Session.execute[_async](timeout)'}, last_host=26a3594a-89e7-48cc-a750-6c92e2c7c7c3-us-east1.db.astra.datastax.com:29042:5dd57910-c7fd-4aed-96ed-3b4ed4a4e424
+2022-07-20/01:28:55		<class 'Exception'>
+2022-07-20/01:33:51		<class 'Exception'>
+2022-07-20/01:33:51		'NoneType' object has no attribute 'execute'
+2022-07-20/01:59:22		Error from server: code=2200 [Invalid query] message="table rating_prediction.info does not exist"
+2022-07-20/11:41:59		Error from server: code=2200 [Invalid query] message="table rating_prediction.info does not exist"
+2022-07-20/11:48:52		Error from server: code=2200 [Invalid query] message="table rating_prediction.info does not exist"
+2022-07-20/12:29:15		<class 'Exception'>
+2022-07-20/12:29:15		'NoneType' object has no attribute 'execute'
+2022-07-20/12:39:30		<class 'Exception'>
+2022-07-20/12:39:30		'NoneType' object has no attribute 'execute'
+2022-07-20/16:20:57		Error from server: code=2200 [Invalid query] message="table rating_prediction.info does not exist"
+2022-07-20/16:24:36		Error from server: code=2200 [Invalid query] message="table rating_prediction.info does not exist"
+2022-07-20/16:26:35		Error from server: code=2200 [Invalid query] message="table rating_prediction.info does not exist"
+2022-07-20/16:35:53		Error from server: code=2200 [Invalid query] message="table rating_prediction.info does not exist"
+2022-07-20/16:38:22		Error from server: code=2200 [Invalid query] message="table rating_prediction.info does not exist"
+2022-07-20/17:12:35		Error from server: code=2200 [Invalid query] message="table rating_prediction.info does not exist"
+2022-07-20/21:46:32		Error from server: code=2200 [Invalid query] message="table rating_prediction.info does not exist"
+2022-07-20/22:02:20		Error from server: code=2200 [Invalid query] message="table rating_prediction.info does not exist"
+2022-07-20/22:16:38		Error from server: code=2200 [Invalid query] message="table rating_prediction.info does not exist"
+2022-07-20/23:30:21		Error from server: code=2200 [Invalid query] message="table rating_prediction.info does not exist"
+2022-07-20/23:38:52		Error from server: code=2200 [Invalid query] message="table rating_prediction.info does not exist"
+2022-07-20/23:52:21		Error from server: code=2200 [Invalid query] message="table rating_prediction.info does not exist"
+2022-07-20/23:56:33		Error from server: code=2200 [Invalid query] message="table rating_prediction.info does not exist"
+2022-07-21/00:01:07		Error from server: code=2200 [Invalid query] message="table rating_prediction.info does not exist"
+2022-07-21/00:23:16		Error from server: code=2200 [Invalid query] message="table rating_prediction.info does not exist"
+2022-07-21/00:33:19		Error from server: code=2200 [Invalid query] message="table rating_prediction.info does not exist"
+2022-07-21/00:36:05		Error from server: code=2200 [Invalid query] message="table rating_prediction.info does not exist"
+2022-07-21/00:44:33		Error from server: code=2200 [Invalid query] message="table rating_prediction.info does not exist"
+2022-07-21/00:46:41		Error from server: code=2200 [Invalid query] message="table rating_prediction.info does not exist"
+2022-07-21/00:54:24		('Unable to complete the operation against any hosts', {<Host: 26a3594a-89e7-48cc-a750-6c92e2c7c7c3-us-east1.db.astra.datastax.com:29042:d15c53fc-abbc-4f6d-9f3f-4f17d4e7cb14 us-east1>: ConnectionException('Pool is shutdown'), <Host: 26a3594a-89e7-48cc-a750-6c92e2c7c7c3-us-east1.db.astra.datastax.com:29042:194fc6e9-2d5f-447f-82bb-0e024df5c60f us-east1>: ConnectionException('Pool is shutdown'), <Host: 26a3594a-89e7-48cc-a750-6c92e2c7c7c3-us-east1.db.astra.datastax.com:29042:cf0bedb3-3623-46f7-92c3-875ab676bc71 us-east1>: ConnectionException('Pool is shutdown')})
+2022-07-21/13:56:50		Error from server: code=2200 [Invalid query] message="table rating_prediction.info does not exist"
+2022-07-21/14:13:10		Error from server: code=2200 [Invalid query] message="table rating_prediction.info does not exist"
+2022-07-21/14:39:48		Error from server: code=2200 [Invalid query] message="table rating_prediction.info does not exist"
+2022-07-21/14:54:10		Error from server: code=2200 [Invalid query] message="table rating_prediction.info does not exist"
+2022-07-21/19:31:21		<class 'Exception'>
+2022-07-21/19:31:21		'NoneType' object has no attribute 'execute'
+2022-07-21/19:38:08		<class 'Exception'>
+2022-07-21/19:38:08		'NoneType' object has no attribute 'execute'
+2022-07-21/19:38:08		'NoneType' object has no attribute 'execute'
+2022-07-21/20:20:30		<class 'Exception'>
+2022-07-21/20:28:05		<class 'Exception'>
+2022-07-21/20:28:44		'NoneType' object has no attribute 'execute'
+2022-07-21/20:32:34		<class 'Exception'>
+2022-07-21/20:32:48		'NoneType' object has no attribute 'execute'
+2022-07-21/20:35:50		Error from server: code=2200 [Invalid query] message="table rating_prediction.info does not exist"
+2022-07-21/21:09:25		<class 'Exception'>
+2022-07-21/21:09:25		'NoneType' object has no attribute 'execute'
+2022-07-21/21:09:37		'NoneType' object has no attribute 'execute'
+2022-07-21/21:09:45		'NoneType' object has no attribute 'execute'
+2022-07-21/22:24:53		Error from server: code=2200 [Invalid query] message="table rating_prediction.info does not exist"
+2022-07-21/22:27:24		Error from server: code=2200 [Invalid query] message="table rating_prediction.info does not exist"

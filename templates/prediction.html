@@ -1,0 +1,94 @@
+
+
+
+{% block head %}
+
+<title>Restaurant Rating Prediction</title>
+
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h1 style="text-align: center">Restaurant Rating Prediction</h1>
+
+    <div class="form">
+        <form action="/prediction" method="POST">
+            <label for="online_order">Will your restaurant have online order facility</label>
+
+<select id="online_order" name="online_order">
+  <option value="Yes">Yes</option>
+  <option value="No">No</option>
+</select>
+            <br>
+            <br>
+            <br>
+            <label for = "book_table">Will your restaurant have booking facility</label>
+            <select id="book_table" name="book_table">
+  <option value="Yes">Yes</option>
+  <option value="No">No</option>
+</select>
+            <br><br><br>
+            <label for = "phone_number">Is phone number available for the restaurant</label>
+            <select id="phone_number" name="phone_number">
+  <option value="Yes">Yes</option>
+                <option value="No">No</option></select>
+                <br><br><br>
+            <label for ="location_list"> Select the location of the restaurant</label>
+            <select id="location_list" name="location_list">
+{% for o in location_list %}
+    <option value="{{ o }}" >{{ o }}</option>
+{% endfor %}
+</select >
+            <br><br><br>
+
+            <label for ="restaurant_type"> Select the type of the restaurant</label>
+            <select id="restaurant_type" name="restaurant_type">
+{% for o in restaurant_type %}
+    <option value="{{ o }}" >{{ o }}</option>
+{% endfor %}
+</select>
+            <br><br><br>
+            <label for ="restaurant_subtype" style="display: inline-block;vertical-align: middle"> Select the subtype of the restaurant<br> (Press ctrl and select for multiple selection)</label>
+            <select id="restaurant_subtype" name="restaurant_subtype" multiple="multiple" required>
+{% for o in restaurant_subtype %}
+    <option value="{{ o }}" >{{ o }}</option>
+{% endfor %}
+
+</select>
+            <br><br><br>
+            <label for ="cuisines_list"> Select the cuisine of the restaurant <br> (Press ctrl and select for multiple selection)</label>
+            <select id="cuisines_list" name="cuisines_list" multiple="multiple" required>
+
+{% for o in cuisines_list %}
+
+                <option value="{{ o }}" >{{ o }}</option>
+
+
+
+
+{% endfor %}
+</select>
+            <br><br><br>
+            <label for ="cost_list"> Select the approximate cost for two people</label>
+            <select id="cost_list" name="cost_list">
+{% for o in cost_list %}
+    <option value="{{ o }}" >{{ o }}</option>
+{% endfor %}
+
+</select>
+            <br><br><br>
+            <label for ="dish"> Which will be your recommended dish in your restaurant?<br>(Type any one dish)</label>
+            <input id="dish" type="text" name="dish">
+            <br><br><br>
+
+            <input type="submit" style="font-weight: bold;height:50px; width:150px" value="SUBMIT">
+        </form>
+    </div>
+</div>
+{% endblock %}
+
+<style> label,select {
+ display: inline-block;
+ vertical-align: middle;
+}</style>
+

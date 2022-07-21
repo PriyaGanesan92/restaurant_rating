@@ -1,0 +1,105 @@
+North Indian
+Mughlai
+Chinese
+Thai
+Cafe
+Mexican
+Italian
+South Indian
+Rajasthani
+Andhra
+Pizza
+Continental
+Momos
+Beverages
+Fast Food
+American
+French
+European
+Bakery
+Burger
+Desserts
+Biryani
+Street Food
+Rolls
+Ice Cream
+Healthy Food
+Salad
+Asian
+Korean
+Indonesian
+Japanese
+Goan
+Seafood
+Kebab
+Steak
+Mithai
+Iranian
+Sandwich
+Mangalorean
+Juices
+Vietnamese
+Hyderabadi
+Bengali
+Arabian
+BBQ
+Tea
+Afghani
+Lebanese
+Finger Food
+Tibetan
+Charcoal Chicken
+Middle Eastern
+Mediterranean
+Kerala
+Oriya
+Bihari
+Roast Chicken
+Bohri
+African
+Nepalese
+Maharashtrian
+Tamil
+Tex-Mex
+Belgian
+Gujarati
+South American
+Konkan
+Chettinad
+Wraps
+Coffee
+Turkish
+Afghan
+Modern Indian
+Lucknowi
+Australian
+Spanish
+Malaysian
+Burmese
+Sushi
+Portuguese
+Parsi
+Greek
+North Eastern
+Bar Food
+Singaporean
+Awadhi
+Naga
+Cantonese
+Grill
+Bubble Tea
+Hot dogs
+Kashmiri
+Assamese
+Sri Lankan
+Mongolian
+British
+Paan
+German
+Russian
+Drinks Only
+Jewish
+Vegan
+Pan Asian
+Raw Meats
+Sindhi
