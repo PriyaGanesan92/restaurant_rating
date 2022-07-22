@@ -1,7 +1,7 @@
 from wsgiref import simple_server
 from training_data import train_data
 
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request,url_for,redirect
 from flask_cors import CORS, cross_origin
 import flask_monitoringdashboard as dashboard
 from DB_Operations.database_connection import db_connection
@@ -26,6 +26,11 @@ def index_page():
 
     return render_template('index.html')
 
+@app.route('/loading',methods=['GET','POST'])
+@cross_origin()
+def loading():
+    return render_template("loading.html")
+
 
 @app.route('/predict',methods=['GET', 'POST'])
 @cross_origin()
@@ -49,13 +54,13 @@ def prediction_page():
     for i in range(1000,5500,500):
         cost_list.append(i)
 
+
     return render_template('prediction.html',location_list=location_list,restaurant_type=restaurant_type,restaurant_subtype=restaurant_subtype,cuisines_list=cuisines_list,cost_list=cost_list)
 
-
-@app.route('/prediction',methods=['GET', 'POST'])
+@app.route('/predictionload',methods = ['GET','POST'])
 @cross_origin()
 
-def prediction():
+def prediction_load():
     online_order = request.form['online_order']
     book_table = request.form['book_table']
     phone_number = request.form['phone_number']
@@ -65,7 +70,26 @@ def prediction():
     cuisines_list = request.form.getlist('cuisines_list')
     cost = request.form['cost_list']
     recommended_dish = request.form['dish']
-    input_list= [online_order,book_table,phone_number,location_list,restaurant_subtype,recommended_dish,cuisines_list,cost,restaurant_type]
+    formlist = []
+    formlist.extend((online_order,book_table,phone_number,location_list,restaurant_type,restaurant_subtype,cuisines_list,cost,recommended_dish))
+    form_file = open("form_file.txt", 'w+')
+    for item in formlist:
+        # write each item on a new line
+        form_file.write("%s\n" % item)
+    form_file.close()
+    return render_template('predictionloading.html')
+
+
+
+@app.route('/prediction',methods=['GET', 'POST'])
+@cross_origin()
+
+def prediction():
+
+    with open('form_file.txt') as f:
+        input_list = f.read().splitlines()
+        f.close()
+
     db = db_connection()
     session = db.establish_db_connection()
     prediction_rating = predict_rating()
@@ -95,6 +119,7 @@ def training():
 port = int(os.getenv("PORT",5000))
 
 if __name__ == '__main__':
+
     host = '0.0.0.0'
     httpd = simple_server.make_server(host, port, app)
     print("Serving on %s %d" % (host, port))
