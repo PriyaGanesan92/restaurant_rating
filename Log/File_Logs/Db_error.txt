@@ -84,3 +84,12 @@
 2022-07-21/21:09:45		'NoneType' object has no attribute 'execute'
 2022-07-21/22:24:53		Error from server: code=2200 [Invalid query] message="table rating_prediction.info does not exist"
 2022-07-21/22:27:24		Error from server: code=2200 [Invalid query] message="table rating_prediction.info does not exist"
+2022-07-22/00:20:00		<class 'Exception'>
+2022-07-22/00:20:00		'NoneType' object has no attribute 'execute'
+2022-07-22/00:20:12		'NoneType' object has no attribute 'execute'
+2022-07-22/00:20:21		'NoneType' object has no attribute 'execute'
+2022-07-22/01:08:45		<class 'Exception'>
+2022-07-22/01:08:45		'NoneType' object has no attribute 'execute'
+2022-07-22/01:08:57		'NoneType' object has no attribute 'execute'
+2022-07-22/01:09:06		'NoneType' object has no attribute 'execute'
+2022-07-22/01:10:55		Error from server: code=2200 [Invalid query] message="table rating_prediction.info does not exist"
