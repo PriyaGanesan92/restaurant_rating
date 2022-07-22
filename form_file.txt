@@ -1,0 +1,9 @@
+Yes
+Yes
+Yes
+Electronic City
+Dine-out
+['Casual Dining']
+['North Indian', 'Chinese', 'Italian']
+2000
+
