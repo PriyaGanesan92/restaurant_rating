@@ -95,13 +95,12 @@ class predict_rating :
             result = loaded_model.predict(input_data)
             #converting result to float
             result = round(float(result), 1)
-            self.connection.log_insert_into_db(session, 'InfoLog', 'Prediction completed')
-            session.shutdown()
             return result
 
 
         except Exception as ex :
             self.connection.log_insert_into_db(session, 'ErrorLog', str(ex))
+            pass
 
 
 
